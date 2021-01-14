@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00 
+ 
+[HKEY_CLASSES_ROOT\*\shell\sqlite] 
+@="CSV to SQLITE3" 
+"Icon"="\"favicon.ico\"" 
+ 
+[HKEY_CLASSES_ROOT\*\shell\sqlite\command] 
+@="\"C:\\Users\\Administrator\\Desktop\\git\\csv2sqlite\\csv.bat\" \"%1\"" 
