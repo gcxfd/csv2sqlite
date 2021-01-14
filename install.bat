@@ -18,3 +18,4 @@ echo @="\"%pwd%csv.bat\" \"%%1\"" >> install.reg
 echo Installing...
 regedit /S install.reg
 echo install successfully.
+del install.reg
